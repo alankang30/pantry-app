@@ -1,4 +1,5 @@
 'use client'
+
 import { Box , Stack, Typography} from "@mui/material"
 import { firestore } from "./firebase"
 import { collection, getDocs, query } from "firebase/firestore"
